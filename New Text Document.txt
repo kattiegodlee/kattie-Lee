@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kattie Lee's Personal Page</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #d4af37;
+        }
+        header h1 {
+            color: #d4af37;
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #d4af37;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-top: 2px solid #d4af37;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kattie Lee</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#music">Music Playlist</a>
+        <a href="#prayer">Prayer</a>
+        <a href="#encouragement">Word of Encouragement</a>
+        <a href="#donations">Donations</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"She is clothed with strength and dignity; she can laugh at the days to come." - Proverbs 31:25</p>
+        <p>Hi, I'm Kattie Lee, a woman who strives to live by faith and grace. Guided by the wisdom of the Bible, I seek to embody the virtues of a godly woman in my daily life. My journey is inspired by passages like Proverbs 31, which describe a woman of noble character who is strong, wise, and compassionate. I believe in the power of prayer, the beauty of music, and the importance of encouragement and generosity.</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Coming soon! Stay tuned for inspirational posts and reflections.</p>
+    </section>
+    <section id="music">
+        <h2>Music Playlist</h2>
+        <p>Here are some of my favorite spiritual and uplifting songs:</p>
+        <ul>
+            <li>"Amazing Grace" by John Newton</li>
+            <li>"How Great Thou Art" by Carl Boberg</li>
+            <li>"Blessed Assurance" by Fanny Crosby</li>
+            <li>"Great Is Thy Faithfulness" by Thomas Chisholm</li>
+        </ul>
+    </section>
+    <section id="prayer">
+        <h2>Prayer</h2>
+        <p>"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God." - Philippians 4:6</p>
+        <p>If you have a prayer request, please feel free to reach out. I believe in the power of prayer and would be honored to pray for you.</p>
+    </section>
+    <section id="encouragement">
+        <h2>Word of Encouragement</h2>
+        <p>"I can do all this through him who gives me strength." - Philippians 4:13</p>
+        <p>No matter what challenges you face, remember that you are not alone. With faith and perseverance, you can overcome anything. Keep your heart open to God's guidance and trust in His plan for you.</p>
+    </section>
+    <section id="donations">
+        <h2>Donations</h2>
+        <p>Your generosity helps support my mission to spread faith, hope, and love. If you feel led to contribute, please click the button below.</p>
+        <button style="background-color: #d4af37; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; font-size: 1em;">Donate</button>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Kattie Lee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
